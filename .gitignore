@@ -1,0 +1,76 @@
+# Virtual Environment
+.venv/
+.venv/*
+
+# Build Artifacts
+*.egg-*
+*.dist-*
+*.egg
+build/
+dist/
+*.lib
+*.so
+*.dll
+*.exe
+*.a
+*.o
+*.obj
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tgz
+*.rar
+*.7z
+
+# IDE Configuration Files
+*.idea/
+*.pydevproject
+*.sublime-project
+*.vscode/
+*.tmux.*
+*.viminfo
+*.csproj
+
+# Testing Data
+tests/data
+tests/fixtures
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Documentation (Generated)
+docs
+docs/*
+*.md
+*.rst
+*.html
+*.pdf
+*.xml
+
+# Cache Files
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Miscellaneous
+npm-debug.log
+yarn-error.log
+*.pem
+*.key
+*.crt
+
+# Database
+*.db
+*.sqlite
+*.sql
+
+# Docker-related Files
+docker-compose.yml
+Dockerfile
