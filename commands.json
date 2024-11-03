@@ -1,0 +1,8 @@
+{
+  "commands": [
+    "pip install -r requirements.txt",
+    "createdb openai_executor",
+    "psql -U postgres -d openai_executor -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto\"",
+    "python main.py"
+  ]
+}
